@@ -1,0 +1,22 @@
+.container {
+  margin-left: 10%;
+  margin-top: 5%;
+  }
+  
+  .col {
+    padding-right: 5%;
+  }
+  
+  .centered {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  p {
+    color: black;
+  }

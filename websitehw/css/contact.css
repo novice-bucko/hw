@@ -1,0 +1,33 @@
+/* div.centered.col{
+  padding: 12%;
+}
+h1{
+  padding-top: 10%;
+  padding-bottom: 30%;
+  font-size: 4em;
+}
+h2 {
+  padding-top: 10%;
+} */
+
+form{
+  padding-top: 5%;
+}
+div.col{
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+#ABC {
+  background-color: blue;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+body{
+  background: grey;
+  margin: 0;
+} 

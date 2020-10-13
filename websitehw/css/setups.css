@@ -1,0 +1,11 @@
+.jumbotron:hover {
+  opacity: 85%;  
+}
+p {
+  padding-bottom: 2%;
+}
+
+.container {
+  padding-top: 5%;
+}
+

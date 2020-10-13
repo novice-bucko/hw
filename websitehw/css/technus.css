@@ -1,0 +1,142 @@
+body {
+  background: #B8D8BA;
+  font-family:"Nunito",sans-serif;
+}
+/* B8D8BA 
+FFE5D9
+BEEDAA*/
+
+.ab {
+  background-color:whitesmoke;
+}
+
+
+.blurb h2 {
+  color: green;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color:rgb(95, 95, 95);
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+#mainnavbar {
+  font-size: 1.5rem;
+  font-weight: 100; 
+}
+
+#mainnavbar .nav-link {
+  color: white;
+}
+#mainnavbar .nav-link:hover {
+  color: lightsalmon;
+}
+
+#mainnavbar .navbar-brand {
+  color:lightsalmon;
+  font-size: 1.5rem;
+  font-weight: 100;
+   
+}
+#headinggroup span {
+  color: red;
+}
+
+#headinggroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.navbar.scrolled {
+  background: #FFE5D9;
+  transition: background 1s;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+font-weight: 100;
+font-size: 3rem;
+  }
+
+}
+
+.fas {
+  font-size: 5rem;
+}
+
+/* css for button */
+
+p {
+  color: rgb(95, 95, 95);
+  font-weight: 200;
+  font-family: "Roboto";
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: xx-large;
+}
+
+.buttons{
+  margin-top: 40px;
+}
+
+button {
+  margin-right: 10px !important;
+  padding: 14px 30px;
+  border: none;
+  color: #fff;
+  font-size: 12px !important;
+  letter-spacing: 4px;
+  font-weight: 300;
+  
+}
+
+content {
+  font-size: 5.5em;
+}
+
+#one{
+  background: none;
+  border: .3pt solid rgba(255, 255, 255, 0.3);
+}
+button#one:hover{
+background: linear-gradient(135deg, rgb(106, 219, 157) 0%, rgb(23, 167, 88) 100%);;;
+}
+
+
+#two{
+  background: linear-gradient(135deg, rgb(106, 219, 157) 0%, rgb(23, 167, 88) 100%);;
+}
+button#two:hover{
+  background: linear-gradient(135deg, rgb(91, 184, 133) 0%, rgb(18, 134, 71) 100%);; ;
+}
+
+.container {
+margin-left: 10%;
+margin-top: 5%;
+}
+
+.col {
+  padding-right: 5%;
+}
+
+.centered {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+

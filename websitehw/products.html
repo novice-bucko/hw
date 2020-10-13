@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="technus.css">
+
+<link rel="stylesheet" href="products.css">
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+ 
+
+
+  <title>Document</title>
+</head>
+<body>
+  <nav id="mainnavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+    <a href="index.html" class="navbar-brand">TECHNUS</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navlinks" aria-controls="#navlinks" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navlinks">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link" >About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="products.html" class="nav-link" >Products</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a href="setups.html" class="nav-link" >Setups</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link" >contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section>
+    <div>
+      <img id="" class="img-fluid" src="paul-esch-laurent-6MeMUw5KDss-unsplash.jpg" alt="">
+    </div>
+  </section>
+  
+
+
+  <div class="row">
+    <div class="col-sm-3">
+
+      <div class="card" style="width: 18rem;">
+        <img src="paul-esch-laurent-8ssNFn4VPLg-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pauly D's.</h5>
+          <p class="card-text">flashy and colorful.</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-sm-3">
+
+      <div class="card" style="width: 18rem;">
+        <img src="emmanuel-qq-brBsFU7w-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">dark vador</h5>
+          <p class="card-text">only the bold can cop these.</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-sm-3">
+
+      <div class="card" style="width: 18rem;">
+        <img src="cristi-goia-lCwwN8VAnGs-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">makinjosh</h5>
+          <p class="card-text">speacial for chods</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+      
+    </div>
+
+
+  </div>
+
+
+<!-- monitor section -->
+
+
+  <section>
+    <div>
+      <img id="" class="img-fluid" src="yongguang-tian-3bnUiJ2lybY-unsplash.jpg" alt="">
+    </div>
+  </section>
+  
+
+
+  <div class="row">
+    <div class="col-sm-3">
+
+      <div class="card" style="width: 18rem;">
+        <img src="josh-sorenson-_3WxTbG-u1g-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pauly D's.</h5>
+          <p class="card-text">flashy and colorful.</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-sm-3">
+
+      <div class="card" style="width: 18rem;">
+        <img src="padraig-treanor-A66iN9J4xlE-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">dark vador</h5>
+          <p class="card-text">only the bold can cop these.</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="col-sm-3">
+
+      <div class="card" style="width: 18rem;">
+        <img src="caspar-camille-rubin-0qvBNep1Y04-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">makinjosh</h5>
+          <p class="card-text">speacial for chods</p>
+          <a href="#" class="btn btn-primary">Buy</a>
+        </div>
+      </div>
+      
+    </div>
+
+
+  </div>
+  
+  <script>
+    $(function (){
+      $(document).scroll(function(){
+        var $nav = $("#mainnavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script> 
+  
+  
+
+</body>
+</html>
